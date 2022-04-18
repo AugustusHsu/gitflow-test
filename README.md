@@ -32,10 +32,18 @@
 6. 新建`feature6`(不要delete、但rebase)
     - 結束`feature6`後再push上去
     - 在分支上會多一個`feature6`的分支可選
+    - 在本地端graph上不會出現分支
 
 7. 新建`feature7`(delete、rebase)
     - 尚未結束`feature7`時push上去
     - 在分支上會多一個`feature7`的分支可選
+    - 在本地端graph上不會出現分支
+
+
+8. 新建`feature8`(delete、rebase)
+    - 結束`feature8`後再push上去
+    - 在分支上會多一個`feature8`的分支可選
+    - 在本地端graph上不會出現分支
 
 ## 結論
 
@@ -44,4 +52,4 @@
 |  都不要  | `feature5`  | `feature1`  |
 | delete  | `feature2` | `feature3`  |
 | rebase  | `feature4` | `feature6`  |
-| delete & rebase  | `feature5` | `feature5`  |
+| delete & rebase  | `feature7` | `feature5`  |
