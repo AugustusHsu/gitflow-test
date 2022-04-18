@@ -57,6 +57,15 @@
     - graph沒分支
     - 沒有PR
 
+## hotfix測試
+
+1. 不刪除分支
+    - graph沒分支
+2. 刪除分支
+    - 尚未結束就push上去，graph有分支(hotfix2)
+    - 結束才push上去，raph沒分支(hotfix2)
+    - graph有分支
+
 ## release測試
 
 1. 不刪除分支
@@ -64,17 +73,10 @@
 2. 刪除分支
     - 
 
-## hotfix測試
-
-1. 不刪除分支
-    - 尚未結束就push上去
-    - 結束才push上去
-    - graph沒分支
-2. 刪除分支
-    - graph有分支
-
 
 ## 結論
+
+### feature結論
 
 |  |  尚未結束就push上去   | 結束才push上去  | 
 |  ----  | ----  | ----  |
@@ -91,3 +93,10 @@
  - 故在**delete分支**、**不要接受PR**的情況下開發就行
 
     ## 個人開發狀況下PR都不要接受!!!!
+
+### hotfix結論
+
+刪除hotfit分支，
+
+### release結論
+
