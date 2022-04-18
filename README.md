@@ -9,16 +9,19 @@
 
 1. 新建`feature1`(不要rebase、不要delete)
     - 結束`feature1`後push上去
-    - 在repository上有PR，是從develop merge到master的請求
+    - 在repository上有PR
 
 2. 新建`feature5`(不要rebase、不要delete)
     - 尚未結束`feature5`時push上去
+    - 在分支上會多一個`feature5`的分支可選
+    - 在repository上有PR
 
 3. 新建`feature2`(不要rebase)
-    - 尚未結束`feature2`時push上去，PR會多一個請求
+    - 尚未結束`feature2`時push上去
     - 在分支上會多一個`feature2`的分支可選
+    - 在repository上有PR
 
-4. 新建`feature3`(一樣不要rebase)
+4. 新建`feature3`(不要rebase)
     - 結束`feature2`後再push上去
     - 沒有PR
 
@@ -26,6 +29,15 @@
     - 尚未結束`feature4`時push上去
     - 在分支上會多一個`feature4`的分支可選
     - 在本地端graph上不會出現分支
+6. 新建`feature6`(不要delete、但rebase)
+    - 結束`feature6`後再push上去
 
 
 ## 結論
+
+|  |  尚未結束就push上去   | 結束才push上去  | 
+|  ----  | ----  | ----  |
+|  都不要  | `feature5`  | `feature1`  |
+| delete  | `feature2` | `feature3`  |
+| rebase  | `feature4` | `feature5`  |
+| delete & rebase  | `feature5` | `feature5`  |
