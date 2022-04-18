@@ -62,8 +62,7 @@
 1. 不刪除分支
     - graph沒分支
 2. 刪除分支
-    - 尚未結束就push上去，graph有分支(hotfix2)
-    - 結束才push上去，raph沒分支(hotfix2)
+    - 尚未結束就push上去、結束才push上去(似乎沒差別)
     - graph有分支
 
 ## release測試
@@ -71,7 +70,7 @@
 1. 不刪除分支
     - 會留分支在本地
 2. 刪除分支
-    - 
+    - 建議刪除分支
 
 
 ## 結論
@@ -96,7 +95,8 @@
 
 ### hotfix結論
 
-刪除hotfit分支，
+**刪除hotfit分支**
 
 ### release結論
 
+**刪除分支，在github上新增release和tag**
