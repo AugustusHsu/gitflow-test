@@ -2,7 +2,7 @@
 
 使用GitKraken測試
 
-## 測試
+## feature測試
 
  - 在結束feature時，不要rebase到Develop
  - feature 完成時，有無Delete branch的差異
@@ -56,6 +56,16 @@
     - 沒有可選分支
     - graph沒分支
     - 沒有PR
+
+## release測試
+
+1. 不刪除分支
+    - 
+2. 刪除分支
+    - 
+
+## hotfix測試
+
 
 ## 結論
 
